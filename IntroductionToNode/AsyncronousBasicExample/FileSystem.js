@@ -14,7 +14,7 @@ El callback es una funcion que se ejecuta cuando a terminado
 el proceso anterior (funcion generalmente anonima)
 */
 
-fs.writeFile('./plainText', `Hola mi nombre es ${name}`, (err) =>{
+fs.writeFile('./plainText', `Hola mi ciudad es ${name}`, (err) =>{
     //EL parametro mas tipico manejado en el callback es el de error,
     if(err) return console.log(`El error es ${err}`); 
     //De existir un error, se imprimira en consola y el return terminara la ejecucion del callback

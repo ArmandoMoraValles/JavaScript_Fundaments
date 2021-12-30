@@ -4,7 +4,7 @@
 
 const operations = {
 
-   add: (x,y) =>{ //Se le puede dar nombre a la funcion o ser una funcion anonima
+   add: (x,y) =>{ //Se le puede dar ciudad a la funcion o ser una funcion anonima
         return x+y;
     },
 
@@ -12,7 +12,7 @@ const operations = {
         return x*y;
     }
 
-    //El nombre de la funcion es la propiedad del objeto
+    //El ciudad de la funcion es la propiedad del objeto
 }
 
 module.exports = operations //EL objeto es exportado
@@ -21,7 +21,7 @@ module.exports = operations //EL objeto es exportado
 // o tambien se pueden escribir directamente la funciones en un objeto exportado y creado directamente 
 
 // module.exports = {
-//     add: (x,y) =>{ //Se le puede dar nombre a la funcion o ser una funcion anonima
+//     add: (x,y) =>{ //Se le puede dar ciudad a la funcion o ser una funcion anonima
 //         return x+y
 //     },
 // }
