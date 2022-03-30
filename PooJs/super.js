@@ -15,7 +15,7 @@ class Person {
     };
 
     showName(){
-        return `El nombre de la persona es ${this.name}`
+        return `Nombre: ${this.name}`
     }
 
 }
@@ -36,12 +36,12 @@ class Student extends Person{
     }
 
     showInfoStudent(){
-        return `El nombre del estudiante es ${this.name} y se encuentra en la carrera de ${this.carrer}`
+        return `Estudiante: ${this.name} Carrera: ${this.carrer}`
     }
 
 }
 
 student1 = new Student(1,'Armando Mora Valles', '1387523', 'Programacion');
 
-console.log(student1.showName());
-console.log(student1.showInfoStudent());
+console.log(student1.showName()); //Nombre: Armando Mora Valles
+console.log(student1.showInfoStudent()); //Estudiante: Armando Mora Valles Carrera: Programacion
